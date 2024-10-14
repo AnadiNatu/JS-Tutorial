@@ -1,0 +1,108 @@
+JavaScript const variables must be assigned a value when they are declared 
+
+Variables declared with let have Block Scope
+
+let and const have block scope.
+
+let and const can not be redeclared.
+
+let and const must be declared before use.
+
+
+You CAN:
+Change the elements of constant array
+Change the properties of constant object
+
+
+There are different types of JavaScript operators:
+
+Arithmetic Operators
+Assignment Operators
+Comparison Operators
+String Operators
+Logical Operators
+Bitwise Operators
+Ternary Operators
+Type Operators
+
+Comparison
+===	equal value and equal type
+
+
+
+
+JS Type Operator
+
+typeof - returns the type of a variable
+instanceof - return true if an object is an instance of an object type
+
+
+
+Datatypes 
+
+1.) String 
+2.) Number
+3.) BigInt
+4.) Boolean
+5.) Undefined
+6.) Null
+7.) Symbol
+8.) object
+
+
+THe object datatype can contain both built-in objects and user defined objects
+Built-In object types
+objects, arrays , dates , maps , sets , intarrays , floatarrays , promises
+
+
+
+A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().
+
+
+For of loop to be used in array;
+
+For in loop to be used in object;
+
+
+
+Ctrl + , = to open settings in VS Code
+
+
+
+
+.) Falsy Values - These values wil give us the value of false 
+- false
+- Null
+- undefined
+- 0 
+- -0
+- NaN
+- '' , "" , `` (empty quotes)
+
+
+.) Equality Operators
+
+1 - === strict equality (type + value)
+2 -  !== strict non-equality operators (types + value)
+3 - ==  lose equality operator (value)
+4 - != lose non-equality operator (value)
+
+
+
+
+Scopes in JS reefers to the current context of code , which determines the accessibility of variable in JavaScript
+
+2 types of scope Variables
+
+1.) Local scope variable are those declared inside of a block;
+2.) Global Scope variable are those declared outside of a block 
+
+
+
+Method is function inside of an object
+
+
+Symbol is a unique and immutable primitive data type introduced in ES6 . A symbol is often as an identifier for object proprties to avoid potential naming conflicts 
+
+Unlike string or nmber , symbol are guaranted to be unique . When you crate a symbol , it is unique and cannot be recreated or changed 
+This uniquness ensures that symbols will not collide with other property names , even if they have the same string representation
